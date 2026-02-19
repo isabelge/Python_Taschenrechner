@@ -23,6 +23,8 @@
 * GitHub zeigt nach dem Push ein gelbes Banner an `Compare & pull request`. Dies muss gedrückt werden.
 * Unter dem Tab `Files changed` können Gruppenmitglieder den Code kommentieren.
 * Erst wenn der Review positiv ist und nichts mehr verbessert werden muss, kann der Knopf `Merge pull request` gedrückt werden.
+</details>
+
 
 Merge-Konflikte:
 Falls zwei Personen die gleiche Zeile geändert haben, kann der Merge-Konflikt in der IDE einfach gelöst werden.
