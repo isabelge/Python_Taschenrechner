@@ -23,11 +23,9 @@ def main():
             print("Gruppenmitglied 1 kann hier die Subtraktion implementieren.")
             # Hier Funktion für die Subtraktion einfügen
         case "3":
-            print("Gruppenmitglied 2 kann hier die Multiplikation implementieren.")
-            # Hier die Funktion für die Multiplikation einfügen
+            print(f"{a} * {b} = {a * b}")
         case "4":
-            print("Gruppenmitglied 2 kann hier die Division implementieren.")
-            # Hier die Funktion für die Division einfügen
+            print(f"{a} / {b} = {a / b}")
         case _:
             print("Falsche Auswahl, das Programm wird beendet.")
 
