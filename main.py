@@ -6,6 +6,14 @@ def main():
     print("4 fuer Division")
 
     wahl = input("Wahl eingeben: ")
+    a, b = (input("a: "), input("b: "))
+    
+    if not a.isnumeric():
+        print(f"a: {a} is not a valid number!")
+        return
+    if not b.isnumeric():
+        print(f"b: {b} is not a valid number!")
+        return
 
     match wahl:
         case "1":
